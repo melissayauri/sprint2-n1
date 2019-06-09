@@ -1,0 +1,79 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$white: white;
+.lateral-menu{
+  width: 48px;
+  height: 100vh;
+  background-color: $white;
+  box-shadow: 0 8px 30px 0 rgba(9, 33, 57, 0.2);
+  margin-left: 4px;
+}
+/*
+.sidebar {
+  position: absolute;
+  width: 220px;
+  padding: 20px;
+ 
+}
+*/
+/*
+.content {
+  flex: 1;
+  padding: 50px;
+  background: #fff;
+  box-shadow: 0 0 5px #000;
+  transform: translateX(0);
+  transition: transform .3s;
+}
+
+.content.isOpen {
+  transform: translateX(220px);
+}
+*/
+.button {
+  cursor: pointer;
+}
+
+.button svg {
+  width: 40px;
+}
+
+
+
+.nav {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100vh;
+}
+
+.nav li a {
+  position: relative;
+  display: block;
+ /* margin-bottom: 5px;*/
+  padding: 16px 0 16px 50px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav li a:hover,
+.nav li a.active {
+  background: rgba(0,0,0,.3);
+}
+
+.nav li a::before {
+  font: 14px fontawesome;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.nav li:nth-child(1) a::before { content: '\f00a'; }
+.nav li:nth-child(2) a::before { content: '\f012'; }
+.nav li:nth-child(3) a::before { content: '\f0e8'; }
+.nav li:nth-child(4) a::before { content: '\f0c3'; }
+.nav li:nth-child(5) a::before { content: '\f022'; }
+.nav li:nth-child(6) a::before { content: '\f115'; }
+.nav li:nth-child(7) a::before { content: '\f085'; }
+.nav li:nth-child(8) a::before { content: '\f023'; left: 23px; }

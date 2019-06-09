@@ -1,0 +1,43 @@
+$white:  #ffffff;
+$gray: #f8f8fa;
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body{
+  background-color: $gray;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  width: 100%;
+  height: 85vh;
+ 
+}
+.container-flex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container-n1{
+  height: 100%;
+  margin-bottom: 0px;
+  outline: 1px solid orange;
+
+}
+.outline{
+  outline: 1px solid blue;
+}
+.mt-14{
+  margin-top: 14px;
+}
+.ml-r{
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+.mb-0{
+  margin-bottom: 0px !important;
+}
+.mt-0{
+  margin-top: 0px !important;
+}

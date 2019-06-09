@@ -1,0 +1,34 @@
+.messages {
+    /*position: relative;
+    display: inline-block;*/
+    padding: 11px 16px 11px 16px;
+    word-break: break-word;
+    font-size: 14px;
+    max-width: 60%;
+  
+}
+.message__row {
+    margin-bottom: 7px;
+    z-index: 1;
+  }
+  .message__row:nth-child(1){
+    margin-bottom: 0rem;
+    display: none;
+  }
+  .message--in {
+    background-color: #ff6919;
+    color:white;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    float:left;
+    
+  }
+  .message--out {
+    background-color: #f1f3f4;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    color:#4a4a4a;
+    float: right;
+  }

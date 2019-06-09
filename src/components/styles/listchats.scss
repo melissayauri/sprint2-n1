@@ -1,0 +1,71 @@
+$white: white;
+$width: 278px;
+
+
+.box-chat{
+    height: 67px;
+    width: 100%;
+    border-bottom: 1.8px solid #eaeaea;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #4a4a4a;
+    background-color: white;
+}
+.circle-person{
+    width: 31px;
+    height: 31px;
+    margin-left: 13px;
+    margin-right: 11px;
+    border:1px solid #06c5be;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #303750;
+    box-shadow: 0 1px 6px 0 rgba(0, 206, 197, 0.6);
+    color: white;
+    font-size: 15px;
+}
+.personal-information{
+    width: 178px;
+    margin-right: 10px;
+}
+
+.personal-information p:nth-child(2){
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color:#4a4a4a;
+    opacity: 0.5;
+}
+.extra-information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time{
+    color:#4a4a4a;
+    font-size: 9px;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+.message{
+    width: 16px;
+    height: 16px;
+    background-color: #ff5800;
+    border-radius: 50%; 
+    color:white;
+    text-align: center;
+    font-size: 10px;
+}
+ 
+@media (min-width: 992px) {
+    .container-listchat{
+        width: 278px;
+    
+    }
+}
